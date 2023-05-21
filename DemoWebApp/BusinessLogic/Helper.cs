@@ -4,7 +4,7 @@
     {
         public static int Sum(int fisrt, int second)
         {
-            return fisrt + second;
+            return fisrt - second;
         }
     }
 }
