@@ -1,11 +1,13 @@
+using DemoWebApp.BusinessLogic;
+
 namespace DemoWebApp.UnitTest
 {
     public class UnitTest1
     {
         [Fact]
-        public void ThisTestShouldPassed()
+        public void HelperSum_ShouldReturnCorrectValue()
         {
-            Assert.True(true);
+            Assert.True(Helper.Sum(1, 2) == 3);
         }
     }
 }
